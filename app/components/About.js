@@ -32,7 +32,7 @@ export default function About() {
           className="mb-10 p-4 rounded-2xl glass neon-border neon-border-hover"
         >
           <Image
-            src="/Profile.jpeg"
+            src="/profile.jpeg"
             alt="Hari Prakash"
             width={180}
             height={180}
