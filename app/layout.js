@@ -11,8 +11,10 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-// 🔥 FINAL METADATA (SEO + LINK PREVIEW)
+// 🔥 FINAL METADATA (SEO + SOCIAL PREVIEW FIXED)
 export const metadata = {
+  metadataBase: new URL("https://portfolio-flame-three-8y537mwv13.vercel.app"),
+
   title: "Hari Prakash | Data Analyst & AI Developer",
   description:
     "AI Developer & Data Analyst specializing in machine learning, NLP, and data-driven systems. Explore projects, experience, and technical expertise.",
@@ -34,11 +36,11 @@ export const metadata = {
     title: "Hari Prakash Portfolio",
     description:
       "Explore AI projects, ML pipelines, and intelligent systems built by Hari Prakash.",
-    url: "https://portfolio-56lrsnpr7-hprakashkathirvel-gmailcoms-projects.vercel.app/",
+    url: "https://portfolio-flame-three-8y537mwv13.vercel.app/",
     siteName: "Hari Prakash Portfolio",
     images: [
       {
-        url: "/preview.png", // ✅ Make sure this exists in /public
+        url: "/preview.png",
         width: 1200,
         height: 630,
         alt: "Hari Prakash Portfolio Preview",
