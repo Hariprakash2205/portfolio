@@ -40,7 +40,8 @@ export const metadata = {
     siteName: "Hari Prakash Portfolio",
     images: [
       {
-        url: "/preview.png",
+        // ✅ FIXED: ABSOLUTE URL (THIS SOLVES YOUR ISSUE)
+        url: "https://portfolio-flame-three-8y537mwv13.vercel.app/preview.png",
         width: 1200,
         height: 630,
         alt: "Hari Prakash Portfolio Preview",
@@ -55,7 +56,10 @@ export const metadata = {
     title: "Hari Prakash Portfolio",
     description:
       "AI Developer & Data Analyst portfolio showcasing ML, NLP, and analytics projects.",
-    images: ["/preview.png"],
+    images: [
+      // ✅ FIXED HERE ALSO
+      "https://portfolio-flame-three-8y537mwv13.vercel.app/preview.png",
+    ],
   },
 
   icons: {
